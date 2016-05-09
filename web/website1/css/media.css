@@ -1,0 +1,95 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.mouse,
+.clients{
+	display: none
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.section_content p{
+	padding: 0 5%;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.top_centered h1{
+	font-size: 30px;
+}
+
+.top_text p{
+	padding: 0 15%
+}
+
+.member_container h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	word-spacing:5px;
+	padding: 0 20%
+}
+
+.btn_member{
+	border:1px solid black;
+	padding: 7px 30px;
+	margin-top: 35px;
+	background-color: transparent;
+}
+
+.member{
+	margin-bottom: 30px
+}
+
+.footer_content img{
+	height: auto;
+	width: 100%
+}
+
+.pure,
+.help,
+.get{
+	display: none;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

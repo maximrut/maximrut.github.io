@@ -1,0 +1,66 @@
+.our_clients li{
+	display: inline-block;
+}
+
+.our_clients ul li a{
+	display: inline-block;
+	height: 50px;
+	float: left;
+	background: url("../img/sprites.png") no-repeat scroll transparent;
+	margin-right: 30px
+}
+
+.our_clients ul li a.go{
+	background-position: 0 0;
+	width: 150px
+}
+
+.our_clients ul li a.sam{
+	background-position: -228px 0;
+	width: 150px
+}
+
+.our_clients ul li a.fil{
+background-position: -457px 0;
+	width: 150px
+}
+
+.our_clients ul li a.four{
+background-position: -713px 0;
+	width: 190px
+}
+
+.our_clients ul li a.pin{
+background-position: -984px 0;
+	width: 190px
+
+}
+
+
+.our_clients ul li a.go:hover{
+	background-position: 0 -50px;
+	width: 150px
+}
+
+.our_clients ul li a.sam:hover{
+	background-position: -228px -50px;
+	width: 150px
+}
+
+.our_clients ul li a.fil:hover{
+background-position: -457px -50px;
+	width: 150px
+}
+
+.our_clients ul li a.four:hover{
+background-position: -713px -50px;
+	width: 190px
+}
+
+.our_clients ul li a.pin:hover{
+background-position: -984px -50px;
+	width: 190px
+
+}
+
+

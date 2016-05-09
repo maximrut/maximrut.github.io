@@ -1,0 +1,186 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoMedium";, sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+
+ul,
+li{
+	display: inline-block;
+	text-transform: uppercase;
+	list-style: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.top_header{
+	background-color: #e5e5e5;
+	padding: 20px 0;
+
+
+}
+
+.logo{
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30px;
+	font-family: "RobotoBold";
+	text-transform: uppercase;
+}
+
+nav{
+	float: right;
+}
+
+nav a{
+	color: #4e4e4e
+}
+
+nav li{
+	margin-right: 15px
+}
+
+nav a:hover {
+transform: scale(1.5);
+color: #1abb9c;
+transition: 0.1s ease; 
+}
+
+.mnu_button{
+	background-color: transparent;
+	border: medium none;
+	font-size: 26px;
+}
+
+.layer{
+	background: url("../img/item.png") no-repeat center top;
+	min-height: 600px
+}
+.layer_text{
+	text-align: center;
+	padding-top: 200px;
+	color: white;
+	font-size: 25px
+}
+
+.layer_text h1{
+	font-size: 40px
+}
+
+.button{
+	background-color: #3f8dbf;
+	color: #fff;
+	font-size: 15px;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 5px;
+}
+
+.itemicon{
+	text-align: center;
+	padding: 90px 25px 0 25px;
+	margin: 50px 0;
+	font-family: "RobotoLight";
+
+}
+
+.item1{
+	background: url("../img/item1.png") no-repeat center top;
+}
+
+.item2{
+	background: url("../img/item2.png") no-repeat center top;
+}
+
+.item3{
+	background: url("../img/item3.png") no-repeat center top;
+}
+
+.item4{
+	background: url("../img/item4.png") no-repeat center top;
+}
+
+.line{
+	border-top: 1px solid black;
+}
+
+.port img{
+	width: 100%;
+	height: 250px;
+}
+
+.port{
+	padding: 0
+}
+
+.prev1{
+	padding-right: 10px
+}
+
+.prev2{
+	padding-right: 10px
+}
+
+.port p{
+	padding-right: 10px;
+	font-family: "RobotoLight";
+	color: #8d8d8d
+}
+
+.block3{
+	background-color: #efefef;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.block3_icon{
+	padding-top: 40px
+}
+
+.block3_content{
+	background: url("../img/item8.png") no-repeat center top;
+}
+
+.block3_content p{
+	padding: 0 20%
+}
+
+.main_footer{
+	background: url("../img/mainfooter.png");
+	padding: 20px;
+	color: #efefef;
+	font-family: "RobotoLight";
+}
