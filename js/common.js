@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-	$(".top_h1 h1").animated("fadeInDown", "fadeOutUp");
-	$(".top_h2 p, .top_icon, .shadow").animated("fadeInUp", "fadeOutDown" );
+	$(".top_h1 h1, .shadow").animated("fadeInDown", "fadeOutUp");
+	$(".top_h2 p").animated("fadeInUp", "fadeOutDown" );
 	
 
 

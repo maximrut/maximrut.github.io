@@ -14,6 +14,10 @@
 .top_icon{
 	display: none
 }
+
+.block2 ul{
+	line-height:30px;
+
 }
 
 /* Small Devices, Tablets */
@@ -25,7 +29,9 @@
   padding: 10px
 }
 
-
+.section_header{
+  margin-bottom: 15px
+}
 
 }
 
@@ -33,8 +39,7 @@
 @media only screen and (max-width : 480px) {
 .top_header h1{
 	font-size: 35px;
-	
-}
+	}
 
 }
 
