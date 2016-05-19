@@ -98,14 +98,85 @@ section{
   animation-delay:1s;
 }
 
-.top_icon{
-  position: absolute;
-  left: 48%;
-  top: 93%
+
+@-webkit-keyframes t-arrow-bottom {
+  0% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  55% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes t-arrow-bottom {
+  0% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  55% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 
-.top_icon img{
-  max-width: 55px
+.t-cover__arrow-wrapper_animated {
+  animation: t-arrow-bottom 1.3s infinite ease;
+}
+.t-cover__arrow {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+.t-cover__arrow-wrapper {
+  display: inline-block;
+  -webkit-transition: all ease-in-out 0.2s;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  
 }
 
 .shadow{
