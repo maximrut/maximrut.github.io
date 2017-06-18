@@ -94,8 +94,9 @@ section{
   font-family: "ACLineRegular";
   font-size: 20px;
   margin: 0;
-  letter-spacing:7px;
+  letter-spacing:5px;
   animation-delay:1s;
+  padding-top: 10px;
 }
 
 
@@ -218,17 +219,7 @@ section{
   color:#888;
 }
 
-.block2{
-  background-color: #222;
-  color: white;
-  text-align: center;
-  position: relative;
 
-  }
-
-.block2 .section_header h2::before{
-  background-color: #fff;
-} 
 
 section h3{
 text-transform: uppercase;
@@ -240,32 +231,6 @@ margin-bottom: 30px;
 }
 
 
-.block2 li{
-display: inline-block;
-margin: 0 20px;
-text-transform: uppercase;
-font-size: 15px;
-cursor: pointer;
-
-}
-
-.block2 li.active{
-  color: #ff6347;
-  border-bottom: 1px solid #ff6347
-}
-
-.block2 ul{
-  margin-bottom: 40px;
-}
-.work_item{
-  display: none;
-}
-
-.s_descr{
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing:5px;
-}
 
 .person_info{
   padding: 0
@@ -274,7 +239,14 @@ cursor: pointer;
 
 .info{
   text-align: left;
-  line-height: 20px;
+  line-height: 22px;
+  
+}
+
+.info1{
+  text-align: left;
+  
+  
 }
 
 .info p{
@@ -288,97 +260,25 @@ cursor: pointer;
 .person img{
   max-width: 250px;
   border-radius: 50%;
-  margin-bottom: 60px
-}
-
-.social_wrap li{
-  display: inline-block;
-  font-size: 25px;
-  padding-right: 10px
-}
-
-.portfolio{
-  padding: 5px
-}
-
-.portfolio img{
-  width: 100%;
-}
-
-
-
-.portfolio .port_item{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  background-color: rgba(0,0,0,.8);
-  text-align: center;
-  padding-top: 5%;
-  opacity: 0;
-  transition:all .5s;
-}
-
-.port_item a{
-display: inline-block;
-border:1px solid red;
-color: #ff6347;
-padding: 5px 10px;
-text-transform: uppercase;
-letter-spacing:4px;
-text-align: center;
-
-}
-
-.port_item:hover{
+  margin-bottom: 60px;
   
-  opacity: 1;
-  padding-top: 15%;
-  transform:scale(1);
-  width: 100%;
-  height: 100%;
+}
 
+
+.info1 ul li{
+  padding: 3px 0px;
 }
 
 .main_footer{
-  background-color: #eeeeee;
+  background-color: #f8f8f8;
   color: #000;
   text-align: center;
   padding: 100px 0 200px;
   position: relative;
   letter-spacing:3px;
+
 }
 
-
-.text-socials {
-  padding: 0
-}
-
-
-.text-socials li{
-  list-style: none;
-  display: inline-block;
-  padding: 20px 30px;
-  text-transform: uppercase;
-  letter-spacing:3px;
-  font-size: 15px;
-  
-}
-
-ul.text-socials li a {
-    color:#000;
-    border-bottom: rgba(0,0,0,0) 2px solid;
-    padding-bottom: 5px;
-    letter-spacing:2px;
-    
-  }
-  
-  ul.text-socials li a:hover {
-    border-bottom: #ff6347 2px solid;
-      
-  }
 
 .copy{
   font-size: 12px
