@@ -25,12 +25,7 @@ try {
 	};
 
 
-$("#work_table").mixItUp();
 
-	$(".block2 li").click(function() {
-		$(".block2 li").removeClass("active");
-		$(this).addClass("active");
-	});
 
 $(window).load(function() { 
 	$(".loader_inner").fadeOut(); 
